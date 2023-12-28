@@ -1,19 +1,19 @@
 # Movie recommender system
 This project is a movie recommender system that uses machine learning to suggest movies to users based on their preferences.
 
-##Data
+Data:
 The system uses a dataset containing information about movies, including their titles, overviews, genres, and cast/crew details.
 
-##Features
+Features:
 Content-Based Filtering: The system recommends movies similar to a particular movie based on its features, such as genre, cast, and crew.
 Collaborative Filtering: It also provides recommendations based on user behavior and preferences.
 
-##Files
+Files:
 The project includes the following files:
 data.csv: Contains the movie dataset.
 recommender.py: Python script for the recommender system.
 
-##Usage
+Usage:
 To use the system, follow these steps:
 Clone the repository.
 Install the required dependencies.
