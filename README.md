@@ -1,4 +1,4 @@
-#Movie Recommender System
+# Movie recommender system
 This project is a movie recommender system that uses machine learning to suggest movies to users based on their preferences.
 ##Data
 The system uses a dataset containing information about movies, including their titles, overviews, genres, and cast/crew details.
@@ -21,7 +21,9 @@ recommender = RecommenderSystem('data.csv')
 
 # Get recommendations for a specific movie
 movie_title = 'The Dark Knight Rises'
+
 recommendations = recommender.get_movie_recommendations(movie_title)
+
 print(recommendations)
 
 This README provides an overview of the movie recommender system, its features, and how to use it.
